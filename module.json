@@ -1,0 +1,12 @@
+{
+    "name": "promises",
+    "description": "A simple implementation of Promises for async code in Omnis libraries",
+    "version": "0.1.0",
+    "compatibility": "12.*",
+    "platform": "all",
+    "libraries": [
+        "lib/promises"
+    ],
+    "xcomps": [],
+    "dependencies": []
+}
