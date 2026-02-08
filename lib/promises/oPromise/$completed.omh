@@ -1,2 +1,7 @@
 # Default worker $completed callback: Calls $resolve regardless
+
+If iAttachedWorker.$isa($extobjects.OProcess.$objects.OProcess)&pResults.retcode<>0
+	Quit method $cinst.$reject(pResults)
+End If
+
 Do $cinst.$resolve(pResults)
