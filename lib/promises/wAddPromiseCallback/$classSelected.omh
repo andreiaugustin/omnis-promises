@@ -4,7 +4,7 @@ Do iObjects.$cols.$add("ref",kItemref)
 
 Set reference iClassRef to iMethodEditors.classitem
 
-Do iClassRef.$objs.$makelist($ref.$name,$ref) Returns iObjects
+Do iClassRef.$objs.$makelist(kRecursive,$ref.$name,$ref) Returns iObjects
 Do iObjects.$addbefore(1,"Class",iClassRef)
 
 Calculate iObjects.$line as 1
